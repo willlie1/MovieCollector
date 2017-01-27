@@ -1,0 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+#source '~/Specs-master/'
+platform :ios, '10.0'
+use_frameworks!
+
+target 'MovieCollection' do
+  pod 'Kingfisher', '~> 3.0'
+  pod 'Alamofire', '~> 4.0'
+  pod 'GRDB.swift'
+  pod 'AlamofireObjectMapper', '~> 4.0'
+  pod 'HCSStarRatingView', '~> 1.4.5'
+  pod 'ObjectMapper', '~> 2.2'
+end
